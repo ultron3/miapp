@@ -10,35 +10,37 @@
 </head>
 <body bgcolor="beige">
   <h3>MOVIT AI</h3>
-<form action="accesso.php" method="get" align="center">
-<p> inserisci il nome <input type=text name="credenziali">
+<div class="box">
+
+  <form action="accesso.php" method="get" align="center">
+  <p> inserisci il nome <input type=text name="credenziali">
         <br><br></p>
    insersci il cognome <input type="text" name="" >
    <br><br>
    password<input type="text" name="" >
    <br><br>
    <p> seleziona il tuo somatotipo</p>
-<select name="utente" id="corpo">
-    <option value="endomorfo">endomorfo</option>
-    <option value="mesomorfo">mesomorfo</option>
-    <option value="ectomorfo">ectomorfo</option>
+    <select name="utente" id="corpo">
+      <option value="endomorfo">endomorfo</option>
+      <option value="mesomorfo">mesomorfo</option>
+      <option value="ectomorfo">ectomorfo</option>
 
-</select>
-<p>selezionare il tipo di allenamento</p>
+    </select>
+    <p>selezionare il tipo di allenamento</p>
 
-<select name="allenamento" id="tipo">
-    <option value="cardio">cardio</option>
-    <option value="definizione">definizione</option>
-    <option value="full-body">full-body</option>
-    <option value="metabolico">metabolico</option>
+    <select name="allenamento" id="tipo">
+      <option value="cardio">cardio</option>
+      <option value="definizione">definizione</option>
+      <option value="full-body">full-body</option>
+      <option value="metabolico">metabolico</option>
 
-</select>
-<br>
-<br><td><INPUT type="submit" NAME="LOGIN" VALUE="invia" >
+    </select>
+  <br>
+  <br><td><input type="submit" NAME="LOGIN" VALUE="invia" >
 
     <input type="reset" name="invia" value="cancella"></td><br>
-</form>
-
+  </form>
+</div>
 
 <div class="container-fluid py-3">
   <h5>Angular reCAPTCHA v2</h5>

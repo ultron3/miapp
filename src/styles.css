@@ -22,3 +22,13 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: small;
 }
+
+.box{
+  background-color: lightcyan;
+  height: 500px;
+  width: 500px;
+  margin:10px auto;
+  padding: 25px;
+  border: 5px solid black;
+
+}
