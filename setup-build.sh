@@ -5,10 +5,10 @@ npm install angular
 ng new mi app
 
 #usare il comando npm su code per installare gli altri package
-npm install ''
+npm install 'nome pacchetto'
 
 #installare i package a livello globale
 
-npm install '' -g
+npm install 'nome pacchetto' -g
 
 #facendo i commit i package risultano installati quando nei file package-lock.json e package.json compare l'icona modifica (M) e sono in colore giallo
