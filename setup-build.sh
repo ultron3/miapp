@@ -16,3 +16,6 @@ npm install 'nome pacchetto' -g
 #per far partire l'applicazione usare i seguenti coamndi
 npm start
 ng serve
+
+
+#installata  npm install ng-otp
