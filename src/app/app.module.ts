@@ -25,7 +25,7 @@ export class AppModule { }
 const firebaseConfig = {
   apiKey: "",
   authDomain: "",
-  databaseURL: "",
+  databaseURL: "mongodb://localhost:27017",
   storageBucket: "",
   messagingSenderId: ""
 };
