@@ -8,3 +8,9 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 
+var headers = new Headers();
+    headers.append("content-type","application/json");
+
+fetch("mongodb://localhost:27017").then (response =>{
+
+}).catch(error =>console.log("si è verificato un errore"))
