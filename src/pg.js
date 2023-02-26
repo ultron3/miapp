@@ -11,3 +11,23 @@ MongoClient.connect(url, function(err, db) {
     db.close();
   });
 });
+return
+
+
+
+function myFunction() {
+  const inpObj = document.getElementById("id1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("login").innerHTML = inpObj.validationMessage;
+  } else {
+    document.getElementById("login").innerHTML = "dati salvati nel database";
+  }
+  }
+  function mypwd() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
