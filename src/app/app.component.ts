@@ -11,16 +11,16 @@ export class AppComponent {
 
 
 export class Mail  {
-  later(email: string, after: number): boolean {
-      console.log(`Send email to ${email} in ${after} ms.`);
+  later(email: string, after: any): boolean {
+      console.log(`email ${email} in ${after} corso.`);
       return true;
   }
-  send(email: string,after:number): boolean {
-      console.log(`Sent email to ${email} after ${after} ms. `);
+  send(email: string,after:any): boolean {
+      console.log(`email  ${email} inviata ${after} correttamente attenda risposta. `);
       return true;
   }
   queue(email: string): boolean {
-      console.log(`Queue an email to ${email}.`);
+      console.log(`indirizzo email errato${email}.`);
       return true;
   }
 }
