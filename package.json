@@ -25,6 +25,7 @@
     "component": "^1.1.0",
     "firebase": "^9.17.1",
     "kinvey-nativescript-sdk": "^8.0.1",
+    "my-ui-library": "^0.0.6",
     "ng-recaptcha": "^11.0.0",
     "otp": "^1.1.0",
     "rxjs": "~7.8.0",
