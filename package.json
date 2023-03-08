@@ -1,6 +1,6 @@
 {
   "name": "miapp",
-  "version": "3.2.1",
+  "version": "3.2.4",
   "patch_sicurezza":"1.6.9",
   "scripts": {
     "ng": "ng",
