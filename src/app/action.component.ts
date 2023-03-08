@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActionBarService } from 'my-ui-library';
 
 @Component({
-  selector: 'my-component',
+  selector: 'miapp',
   template: `
     <h1>Il mio componente</h1>
     <div>
