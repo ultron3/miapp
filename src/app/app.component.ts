@@ -24,3 +24,8 @@ export class Mail  {
       return true;
   }
 }
+
+
+export class Fingerprintjs {
+  
+}
