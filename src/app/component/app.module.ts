@@ -23,7 +23,7 @@ export class AppModule { }
 
 
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: "api-kei",
   authDomain: "",
   databaseURL: "mongodb://localhost:27017",
   storageBucket: "",
