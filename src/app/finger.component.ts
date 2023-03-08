@@ -8,4 +8,4 @@ const fpPromise = Fingerprintjs.load({
 
 
 fpPromise
-.then(fp => fp.get())
+.then((fp: { get: () => any }) => fp.get())
