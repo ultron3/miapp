@@ -71,8 +71,9 @@
 </div>
 
 <br><br>
-<button class="fingerprint-btn" >
-  <i class="fas fa-fingerprint" align="center"></i> Fingerprint
+<button class="fingerprint-btn" (tap)="onTap($event)" >
+  <i class="fas fa-fingerprint" align="center" ></i> Fingerprint
+
 </button>
 
 <script src="pg.js"></script>
