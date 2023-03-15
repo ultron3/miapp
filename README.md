@@ -27,3 +27,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 nuova versione del progetto peso famiglia ma sviluppato in angular
+Creata immagine docker, l'immahine si chiama miapp:3.3.4, sia chiaro non è la versione definitiva, ho creato anche una cartella con l'immagine 
+per il fingerprint.
+nel codice sono presenti link e commenti
