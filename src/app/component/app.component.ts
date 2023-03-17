@@ -26,6 +26,3 @@ export class Mail  {
 }
 
 
-export class Fingerprintjs {
-  
-}
