@@ -34,3 +34,6 @@ aggiornamenti fatti :
 -creati file doker per creare l'immagine
 
 -collegamento a mongodb compass
+
+Questa applicazione consente di inserire dei dati e inviarli 
+su un database non relazionale, nel file packaage.json ci sono tutte le dipendenze installate
