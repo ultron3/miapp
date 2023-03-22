@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import {Fingerprintjs} from './finger'
+import {Fingerprintjs} from './finger.enviroments'
 
 
 Component({
