@@ -8,6 +8,11 @@
     "chromeOs",
     "Android"
   ],
+  "env":{
+    "node":true,
+    "window":true
+  },
+
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
