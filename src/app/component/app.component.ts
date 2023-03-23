@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,8 +8,5 @@ export class AppComponent {
   title = 'miapp';
 }
 
-if (typeof window !== 'undefined') {
-  // codice che fa riferimento a window
-}
 
 
