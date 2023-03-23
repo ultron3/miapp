@@ -37,3 +37,7 @@ aggiornamenti fatti :
 
 Questa applicazione consente di inserire dei dati e inviarli 
 su un database non relazionale, nel file packaage.json ci sono tutte le dipendenze installate
+
+
+- implemetazione del fingerprint 
+- creati i sorgenti per far diventare la web app in un app android e ios
