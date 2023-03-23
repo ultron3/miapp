@@ -1,0 +1,9 @@
+android{
+  defaultconfig{
+    generatedensities=[]
+    ndk{
+      abfiltear.clear()
+      abifiltear.add()
+    }
+  }
+}
