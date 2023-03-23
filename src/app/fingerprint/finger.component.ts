@@ -24,6 +24,8 @@ function getFingerprint(obj: Record<string, unknown>): string {
   const concatenatedString = sortedEntries.map(([key, value]) => `${key}:${value}`).join(',');
   return `${obj.constructor.name}(${concatenatedString})`;
 }
+
+
 function then(arg0: (fp: { get: () => any} ) => any) {
   throw new Error('Function not implemented.')
 }
