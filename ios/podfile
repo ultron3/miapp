@@ -1,0 +1,7 @@
+post_install do |installer|
+  installer.pods_project.target.each do  |target|
+    target.build_settings do |config|
+    config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    END
+  END
+END
