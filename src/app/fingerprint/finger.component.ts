@@ -3,8 +3,8 @@ import {Fingerprintjs} from './finger.enviroments'
 
 
 Component({
-    templateUrl:'./finger.component.html',
-    styleUrls:['./finger.component.css']
+    templateUrl:'./finger.component.html'
+
 })
 
 const fpPromise = Fingerprintjs.load({

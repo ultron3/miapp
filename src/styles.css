@@ -38,12 +38,22 @@ h1{
 
 }
 
-.fingerprint-btn {
-  
-  background-color: lightsalmon;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+.fingerprint-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  background-color: #4CAF50; /* colore di sfondo verde */
+  color: white; /* colore del testo bianco */
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* ombra leggera */
+  transition: all 0.2s ease-in-out; /* animazione di transizione */
+}
+
+.fingerprint-button:hover {
+  transform: scale(1.1); /* ingrandisce il pulsante al passaggio del mouse */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* ombra leggermente più grande */
 }
