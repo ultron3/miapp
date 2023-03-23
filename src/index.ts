@@ -8,8 +8,5 @@ Component({
 
 //https://bobbyhadz.com/blog/all-in-programming
 
-function onTap(args: any, EventData: any) {
-  
-  throw new Error("Function not implemented.");
-}
+
 
