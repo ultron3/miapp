@@ -30,7 +30,7 @@ nuova versione del progetto peso famiglia ma sviluppato in angular
 Creata immagine docker, l'immahine si chiama miapp:3.3.4, sia chiaro non è la versione definitiva, ho creato anche una cartella con l'immagine 
 per il fingerprint.
 
-In futuro sarà possibile creare un app android e ios sono presenti i sorgenti
+
 nel codice sono presenti link e commenti
 aggiornamenti fatti :
 -creati file doker per creare l'immagine
