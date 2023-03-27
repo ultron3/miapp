@@ -15,12 +15,4 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 
 
-//chiamata localhost per mongodb
-var headers = new Headers();
-    headers.append("content-type","application/json");
-
-fetch("mongodb://localhost:27017").then (response =>{
-
-}).catch(error =>console.log("si è verificato un errore"))
-
 
