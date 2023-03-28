@@ -3,7 +3,7 @@ import {Fingerprintjs} from './finger.enviroments'
 
 
 Component({
-    templateUrl:'./finger.component.html'
+    templateUrl:'./index.html'
 
 })
 
