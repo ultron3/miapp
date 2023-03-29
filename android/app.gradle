@@ -6,4 +6,9 @@ android{
       abifiltear.add()
     }
   }
+  dependencies {
+  classpath 'com.android.tools.build:gradle:8.0.2'
+//Il progetto dipende dalla versione 1.0.0 del plugin Android per Gradle.//
+  }
+
 }
