@@ -1,0 +1,12 @@
+import groovy.json.JsonSlurper
+
+buildscript{
+  repositories{
+    google()
+    jcenter()
+  }
+  dependecies{
+    classpath 'com.android.tools.build:gradle:8.0.2'
+  }
+
+}
