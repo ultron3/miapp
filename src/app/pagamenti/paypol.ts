@@ -7,9 +7,9 @@ Component({
 
 
 import {  StripeCardElement } from '@stripe/stripe-js';
-import{Strype} from './strype.enviroment';
 
-const stripe = Stripe('inserisci_la_tua_chiave_pubblica_stripe');
+
+const stripe = stripe('inserisci_la_tua_chiave_pubblica_stripe');
 
 const paymentForm = document.getElementById('payment-form') as HTMLFormElement;
 const cardHolderNameInput = document.getElementById('cardholder-name') as HTMLInputElement;
