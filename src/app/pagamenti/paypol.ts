@@ -6,7 +6,8 @@ Component({
 })
 
 
-import { Stripe, StripeCardElement } from '@stripe/stripe-js';
+import {  StripeCardElement } from '@stripe/stripe-js';
+import{Strype} from './strype.enviroment';
 
 const stripe = Stripe('inserisci_la_tua_chiave_pubblica_stripe');
 
