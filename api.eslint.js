@@ -21,7 +21,7 @@ const { ESLint } = require("eslint");
     console.error(error);
 });
 
-
+// eseguo un switch per far andare movit_ai sui seguenti browser
 switch (browser) {
   case 'Edge':
     alert( "You've got the Edge!" );
