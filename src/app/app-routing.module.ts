@@ -7,9 +7,11 @@ const routes: Routes = [];
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  browser:any;
 
+ 
 
-export class Fingerprintjs {
 
 }
+
