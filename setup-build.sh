@@ -19,3 +19,8 @@ ng serve
 
 
 #installata  npm install ng-otp
+
+#installata dipendenza ngrx
+
+npm install ngrx
+npm install ngrx -g

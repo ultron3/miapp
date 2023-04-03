@@ -54,6 +54,7 @@
     "my-ui-library": "^0.0.6",
     "nativescript": "^8.4.0",
     "ng-recaptcha": "^11.0.0",
+    "ngrx": "^0.0.1-security",
     "otp": "^1.1.0",
     "rxjs": "~7.8.0",
     "tns-android": "^6.5.3",
