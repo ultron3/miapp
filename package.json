@@ -52,6 +52,7 @@
     "ios": "^0.0.1",
     "jsdom": "^21.1.1",
     "kinvey-nativescript-sdk": "^8.0.1",
+    "mongo": "^0.1.0",
     "my-ui-library": "^0.0.6",
     "nativescript": "^8.4.0",
     "ng-recaptcha": "^11.0.0",
