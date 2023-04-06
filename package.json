@@ -35,6 +35,7 @@
     "@angular/pwa": "^15.2.0",
     "@angular/router": "^15.1.0",
     "@auth0/angular-jwt": "^5.1.2",
+    "@azure/msal-angular": "^2.5.5",
     "@fingerprintjs/fingerprintjs-pro": "^3.8.2",
     "@ngrx/store-devtools": "^15.4.0",
     "@stripe/stripe-js": "^1.52.0",
