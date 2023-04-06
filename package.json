@@ -1,6 +1,6 @@
 {
   "name": "movit_ai",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "patch_sicurezza": "2.0.0",
   "platform": [
     "windws",
