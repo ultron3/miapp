@@ -11,8 +11,7 @@ if (environment.production) {
 // che fornisce prestazioni migliori e migliora l'esperienza dell'utente.
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));  //FIXME : da aggiornare
-
+  .catch(err => console.error(err)); 
 
 
 
