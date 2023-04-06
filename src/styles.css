@@ -57,6 +57,49 @@ h1{
   transform: scale(1.1); /* ingrandisce il pulsante al passaggio del mouse */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* ombra leggermente più grande */
 }
+/*stile social network*/
 
+#social-bar {
+  position: fixed;
+  top:0;
+  bottom:0;
+  margin:auto;
+  left:0;
+  height:-webkit-fit-content;
+  height:-moz-fit-content;
+  height:fit-content;
+}
+#social-bar a {
+  display: block;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding:15px;
 
+  font-size: 20px;
+  text-decoration:none;
+  color: white;
+}
+#social-bar a:hover {
+  opacity:0.8;
+}
+.facebook {
+  background: #3B5998;
+}
+
+.linkedin {
+  background: #3985DD;
+
+}
+.instagram {
+  background: #dd2a7b;
+
+}
+
+@media screen and (max-width:700px){
+  #social-bar a {
+    padding:8px;
+  }
+}
 
