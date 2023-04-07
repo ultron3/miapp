@@ -1,8 +1,10 @@
 import { MongoClient, MongoError } from 'mongodb';
 
 const url = 'mongodb://localhost:27017/';
+const error='mongodb://localhost:27017/';
 
 const client = new MongoClient(url);
+const host= new MongoError(error);
 
 async function connect() {
   try {
