@@ -5,10 +5,17 @@ const fpPromise = Fingerprintjs.load({
   apikey:'api-kei',
   region:'eu'
 
+
 })
 
 
-function postfingerprint(){
+async function postfingerprint(){
+  console.log("success")
+  return
 
-  
+
+
 }
+
+
+postfingerprint()
