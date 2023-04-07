@@ -21,3 +21,10 @@ async function connect() {
 }
 
 connect();
+
+
+async function hosterror() {
+  console.log(host)
+
+}
+hosterror()
