@@ -21,6 +21,10 @@ db.getCollection('progressi')
       */
     }
   )
+  //aggiunto campo delete
+  .delete({
+
+  })
   .sort({
     /*
     * fieldA: 1 // ascending
