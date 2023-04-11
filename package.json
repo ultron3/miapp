@@ -2,6 +2,7 @@
   "name": "movit_ai",
   "version": "4.5.2",
   "patch_sicurezza": "2.0.0",
+  "dbm_mongodb_version":"1.0.0",
   "platform": [
     "windws",
     "IOS",
