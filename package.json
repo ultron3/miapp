@@ -2,7 +2,7 @@
   "name": "movit_ai",
   "version": "4.5.2",
   "patch_sicurezza": "2.0.0",
-  "dbm_mongodb_version":"1.0.0",
+  "dbm_mongodb_version": "1.0.0",
   "platform": [
     "windws",
     "IOS",
@@ -58,6 +58,7 @@
     "my-ui-library": "^0.0.6",
     "mysql": "^2.18.1",
     "nativescript": "^8.4.0",
+    "nativescript-oauth2": "^3.0.10",
     "ng-recaptcha": "^11.0.0",
     "ngrx": "^0.0.1-security",
     "otp": "^1.1.0",
