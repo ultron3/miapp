@@ -49,6 +49,7 @@
     "docker": "^1.0.0",
     "firebase": "^9.17.1",
     "gradle": "^1.2.4",
+    "gradlew": "^0.0.1-security",
     "https-proxy-agent": "^5.0.1",
     "ionic": "^5.4.16",
     "ios": "^0.0.1",
