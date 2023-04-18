@@ -11,8 +11,7 @@ pool.getConnection()
       conn.query;(arg0: string, arg1: (string | number)[] | undefined) => Promise
         .then((rows: any) => {
           console.log(rows); //[ {val: 1}, meta: ... ]
-          //Table must have been created before
-          // " CREATE TABLE myTable (id int, val varchar(255)) "
+
           return conn.query("INSERT INTO myTable value (?, ?)", [1, "mariadb"]);
         })
         .then((res: any) => {
