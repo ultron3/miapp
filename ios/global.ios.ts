@@ -1,5 +1,9 @@
 
+export class ios{
+isIOS:any
+  if (isIOS: { currentDevice: { batteryLevel: any } }) {
+    const batteryLevel = isIOS.currentDevice.batteryLevel
+  }
 
-if (global.isIOS) {
-  const batteryLevel = UIDevice.currentDevice.batteryLevel
 }
+
