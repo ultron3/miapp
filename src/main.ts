@@ -4,6 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/component/app.module';
 import { enableProdMode } from '@angular/core';
 import { environment } from './enviroment.prod';
+import { android_ios } from 'android/global.android';
 
 if (environment.production) {
   enableProdMode();
@@ -11,7 +12,9 @@ if (environment.production) {
 // che fornisce prestazioni migliori e migliora l'esperienza dell'utente.
 
 platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err)); 
+  .catch(err => console.error(err));
 
 
+android_ios.os();{
 
+}
