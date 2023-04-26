@@ -1,9 +1,13 @@
 
 export class ios{
 isIOS:any
-  if (isIOS: { currentDevice: { batteryLevel: any } }) {
-    const batteryLevel = isIOS.currentDevice.batteryLevel
+ios_version(){
+  if (this.isIOS ) {
+    const batteryLevel = this.isIOS.currentDevice.batteryLevel
   }
+
+}
+
 
 }
 
