@@ -1,3 +1,5 @@
+import { currentDevice } from "src"
+
 export class android{
   isandroid:any
     android_version(){
@@ -7,3 +9,6 @@ export class android{
     }
 
   }
+new currentDevice();{
+
+}

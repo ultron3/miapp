@@ -16,7 +16,7 @@ social.homesocial();{
 
 
 //importo la classe android
-new android();{
+ new android();{
 
   console.log("versione android")
 
@@ -27,4 +27,21 @@ new ios();{
 
 }
 
+
+export class  currentDevice{
+  device: any;
+  token_device:any;
+
+  software_android(){
+    this.device ="huawei"
+    if(this.device){
+      console.log("error")
+
+    }
+    else{
+      console.log("build completed")
+    }
+  }
+
+}
 
