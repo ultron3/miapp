@@ -15,9 +15,15 @@ social.homesocial();{
 
 //https://bobbyhadz.com/blog/all-in-programming
 
+//importo la classe android
+new android();{
+  console.log("versione android")
 
-android
+}
+//importo la classe ios
+new ios();{
+  console.log("versione ios")
 
-ios
+}
 
 
