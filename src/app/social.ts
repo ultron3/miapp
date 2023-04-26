@@ -1,4 +1,6 @@
 export class social {
+  static homesocial: any;
+
   homesocial() {
     //fecth instagram
     var requestOptions = {
