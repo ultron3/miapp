@@ -1,7 +1,9 @@
 export class android{
   isandroid:any
-    if (isandroid: { currentDevice: { batteryLevel: any } }) {
-      const batteryLevel = isandroid.currentDevice.batteryLevel
+    android_version(){
+      if (this.isandroid) {
+        const batteryLevel = this.isandroid.currentDevice.batteryLevel
+      }
     }
 
   }
