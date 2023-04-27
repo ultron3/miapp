@@ -3,11 +3,23 @@ import { social } from "./app/social";
 import { android } from "android/global.androi";
 import { ios } from "ios/global.ios";
 import { Fingerprintjs } from "./app/fingerprint/finger.enviroments";
+import { token } from "./token";
 
 Component({
   templateUrl:'./index.html',
   styleUrls:['./style.css']
 })
+//esporto la classe token
+new token();{
+
+  
+}
+
+
+
+
+
+
 //esporto la classe social
 social.homesocial();{
   console.log("fetch link")

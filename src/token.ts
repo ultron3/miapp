@@ -9,6 +9,7 @@ const url = injector.get(BASE_URL);
 expect(url).toBe('http://localhost:4200');
 
 export class token{
+ 
   access_token: any;
   refresh_token:any;
 
