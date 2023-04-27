@@ -27,7 +27,10 @@ new ios();{
   console.log("versione ios")
 
 }
- Fingerprintjs
+ Fingerprintjs.load
+
+ 
+
 
 export class  currentDevice{
   device: any;
