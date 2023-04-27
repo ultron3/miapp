@@ -7,3 +7,16 @@ const url = injector.get(BASE_URL);
 // Note: since `BASE_URL` is `InjectionToken<string>`
 // `url` is correctly inferred to be `string`
 expect(url).toBe('http://localhost:4200');
+
+export class token{
+  access_token: any;
+  refresh_token:any;
+
+  setup_token(){
+    this.access_token = true
+    this.refresh_token = false
+
+
+
+  }
+}
