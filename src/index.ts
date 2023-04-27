@@ -17,19 +17,24 @@ social.homesocial();{
 
 
 //importo la classe android
- new android();{
+new android();{
+
 
   console.log("versione android")
 
 }
 //importo la classe ios
 new ios();{
+
   console.log("versione ios")
 
 }
- Fingerprintjs.load
+//importo la classe fingerprintjs
+Fingerprintjs.load;{
+  //not implemented
+}
 
- 
+
 
 
 export class  currentDevice{
