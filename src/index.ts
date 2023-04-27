@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 import { social } from "./app/social";
 import { android } from "android/global.androi";
 import { ios } from "ios/global.ios";
+import { Fingerprintjs } from "./app/fingerprint/finger.enviroments";
 
 Component({
   templateUrl:'./index.html',
@@ -26,7 +27,7 @@ new ios();{
   console.log("versione ios")
 
 }
-
+ Fingerprintjs
 
 export class  currentDevice{
   device: any;
