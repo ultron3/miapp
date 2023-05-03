@@ -1,0 +1,12 @@
+{
+  "short_name": "movit_ai",
+  "name": "alex.gnavi_15",
+
+  
+  "start_url": "/?utm_source=homescreen",
+  "display": "fullscreen",
+  "lang": "it-IT",
+  "background_color": "#fff",
+  "theme_color": "#5bb1f9",
+  "orientation": "portrait-primary"
+}

@@ -1,6 +1,6 @@
 {
   "name": "movit_ai",
-  "version": "4.5.0",
+  "version": "4.5.1",
   "patch_sicurezza": "2.0.0",
   "dbm_mongodb_version": "1.1.1",
   "platform": [
