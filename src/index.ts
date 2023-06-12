@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, NgProbeToken } from "@angular/core";
 import { social } from "./app/social";
 import { android } from "android/global.androi";
 import { ios } from "ios/global.ios";
@@ -11,8 +11,11 @@ Component({
 })
 //esporto la classe token
 new token();{
-
   
+
+
+
+
 }
 
 
