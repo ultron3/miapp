@@ -1,5 +1,3 @@
-﻿namespace MiAppDb;
-
 public class Class1
 {
 
