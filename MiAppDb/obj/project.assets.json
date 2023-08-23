@@ -31,6 +31,19 @@
           }
         }
       },
+      "ConsoleTables/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ConsoleTables.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -346,6 +359,21 @@
         "lib/netstandard2.0/AWSSDK.SecurityToken.xml",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "ConsoleTables/2.5.0": {
+      "sha512": "lfXLGH1coDInONveyIW5ufJWT/P5KbMRRV0cbR7CBnoZLNLZeTY51QUrAmtsX+gIWj7xlY9FSmg1sBYhXMmuuw==",
+      "type": "package",
+      "path": "consoletables/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "consoletables.2.5.0.nupkg.sha512",
+        "consoletables.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/ConsoleTables.dll",
+        "lib/netstandard2.1/ConsoleTables.pdb"
       ]
     },
     "DnsClient/1.6.1": {
@@ -780,6 +808,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ConsoleTables >= 2.5.0",
       "MongoDB.Driver >= 2.21.0"
     ]
   },
@@ -790,11 +819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
+      "projectUniqueName": "c:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
       "projectName": "MiAppDb",
-      "projectPath": "C:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
+      "projectPath": "c:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
       "packagesPath": "C:\\Users\\IdeaPad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\obj\\",
+      "outputPath": "c:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -827,6 +856,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "ConsoleTables": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.21.0, )"

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "20pwW9kbOXHD4mjTL2vYwKkjnrvO+++mqolgcG6t4Mpyd3J/rI3uIFIDm1KQ4JyX7H+Nia7wXpQd6gOsMXTdCQ==",
+  "dgSpecHash": "pZBtPLP/kNKVuOzAMO1NpMA6kElQWadJBb58VsEmI8IVaak5iAE6wu75kp7Ff65TkNq23AeYr9lvJQ3X7FzshA==",
   "success": true,
   "projectFilePath": "C:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IdeaPad\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\IdeaPad\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\IdeaPad\\.nuget\\packages\\consoletables\\2.5.0\\consoletables.2.5.0.nupkg.sha512",
     "C:\\Users\\IdeaPad\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\IdeaPad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\IdeaPad\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

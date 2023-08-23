@@ -28,3 +28,4 @@ C:\Users\IdeaPad\OneDrive\Documenti\miapp\MiAppDb\obj\Debug\net7.0\refint\MiAppD
 C:\Users\IdeaPad\OneDrive\Documenti\miapp\MiAppDb\obj\Debug\net7.0\MiAppDb.pdb
 C:\Users\IdeaPad\OneDrive\Documenti\miapp\MiAppDb\obj\Debug\net7.0\MiAppDb.genruntimeconfig.cache
 C:\Users\IdeaPad\OneDrive\Documenti\miapp\MiAppDb\obj\Debug\net7.0\ref\MiAppDb.dll
+C:\Users\IdeaPad\OneDrive\Documenti\miapp\MiAppDb\bin\Debug\net7.0\ConsoleTables.dll
