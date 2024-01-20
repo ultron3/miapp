@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGRkzcbUkb6RL/8CciumIEZDvN1Jg4u7Nwh93KP9oM2BcF2w0+OMrCFFXNArKoxmuZ9gMZW7ZYMjoShYizl+Jw==",
+  "dgSpecHash": "rfW/x4a2BHnAsvtPhT3kHTlgc920tDiQAU0S9tlSNPzgjpUn2sN4ChxGQaCjEiMxEHIfOAP5/+KOVH4ZT7btyA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
+  "projectFilePath": "C:\\Users\\IdeaPad\\OneDrive\\Documenti\\miapp\\MiAppDb\\MiAppDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IdeaPad\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\IdeaPad\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
@@ -30,7 +30,7 @@
       "code": "NU1604",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "La dipendenza Class1 del progetto non contiene un limite inferiore inclusivo. Includere un limite inferiore nella versione della ripendenza per garantire risultati di ripristino coerenti.",
+      "message": "Project dependency Class1 does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
       "libraryId": "Class1",
       "targetGraphs": [
         ".NETCoreApp,Version=v7.0"
@@ -40,7 +40,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Il pacchetto 'Class1 1.1.3' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net7.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "message": "Package 'Class1 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Class1",
       "targetGraphs": [
         "net7.0"
